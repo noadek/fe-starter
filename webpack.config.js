@@ -4,6 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
+  devServer: {
+    port: 8081
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
