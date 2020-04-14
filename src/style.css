@@ -5,3 +5,42 @@
 @tailwind utilities;
 
 /* Custom css */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video
+{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+  body,html{font-family:Roboto,Franklin Gothic Medium,Tahoma,sans-serif;font-size:1em;
+    -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:300;height:100%;
+    overflow:hidden}img{max-width:100%}
+    body h1,body h2{font-size:1.5em;line-height:1.15em}body h1,body 
+    h2,body h3{color:inherit;font-weight:400;margin-bottom:.75em;text-align:inherit}
+  body h3{font-size:1.125em}body p{color:inherit;line-height:1.25em;margin:0 0 1.5em 0;
+    text-align:inherit}body a{color:#900f98;cursor:pointer;outline:none;text-decoration:none}
+    body a.underlined,body a:hover{text-decoration:underline}
+    body a.menu-item{color:#000;font-weight:400;line-height:40px}
+    body .error-page a{color:#fff;font-weight:700;text-decoration:underline}
+    body strong{font-weight:700;line-height:1.225em}
+    body .verification-icon{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center}
+    body .verification-icon img{width:48px}
+    body .verification-icon h2{-ms-flex-item-align:center;align-self:center;margin:0 10px}
+    body .error-message{color:#d3077a;display:block;font-size:.775em;font-weight:400;padding:9px 20px 0}
+    body .content-illustration{max-width:180px;min-width:110px;width:28%}
+    body .peachy-smaller{font-size:.725em}body .peachy-bold{font-weight:400}
+    body .peachy-colored{color:#900f98}.line-through{text-decoration:line-through}
+    .peachy-select{
+      -webkit-appearance:none;-moz-appearance:none;appearance:none;
+      /*background-image:url(../assets/images/thin-down.svg);*/
+      background-position:97% 5px;background-repeat:no-repeat;background-size:32px;
+      border:1px solid #d3d3d3;border-radius:5px;-webkit-box-sizing:border-box;
+      box-sizing:border-box;font-family:Roboto,Franklin Gothic Medium,Tahoma,sans-serif;
+      font-size:1em;font-weight:300;height:48px;padding:0 1em;width:100%}
+    .peachy-select:-moz-focusring{color:transparent;text-shadow:0 0 0 #000}
+    .peachy-select:focus{border:1px solid #900f98;outline:none}
+    .peachy-textarea{border:1px solid #d3d3d3;border-radius:5px;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:Roboto,Franklin Gothic Medium,Tahoma,sans-serif;font-size:1em;font-weight:300;max-width:100%;padding:10px;resize:none;width:100%}
+    .peachy-textarea:-moz-focusring{color:transparent;text-shadow:0 0 0 #000}
+    .peachy-textarea:focus{border:1px solid #900f98;outline:none}.mt1{margin-top:10px}.mt2{margin-top:20px}.mt3{margin-top:30px}.mb1{margin-bottom:10px}.mb2{margin-bottom:20px}.mb3{margin-bottom:30px}.btn-hidden{height:0;overflow:hidden}.peachy-color-primary{--peachy-color-base:#ffd338!important;--peachy-color-contrast:#900f98!important;--peachy-color-shade:#e0ba31!important;--peachy-color-tint:#ffd74c!important}.peachy-color-secondary{--peachy-color-base:#900f98!important;--peachy-color-contrast:#fff!important;--peachy-color-shade:#7f0d86!important;--peachy-color-tint:#9b27a2!important}.peachy-color-pink{--peachy-color-base:#d3077a!important;--peachy-color-contrast:#fff!important;--peachy-color-shade:#ba066b!important;--peachy-color-tint:#d72087!important}.peachy-color-light{--peachy-color-base:#fff!important;--peachy-color-contrast:#000!important;--peachy-color-shade:#e0e0e0!important;--peachy-color-tint:#fff!important}.peachy-color-dark{--peachy-color-base:#000!important;--peachy-color-contrast:#fff!important;--peachy-color-shade:#000!important;--peachy-color-tint:#1a1a1a!important}
